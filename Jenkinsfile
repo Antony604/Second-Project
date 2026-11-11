@@ -45,9 +45,6 @@ pipeline {
             fi
             sleep 5
           done
-          echo "---- container health log ----"
-          docker inspect -f "{{json .State.Health.Log}}" $CONTAINER
-          docker logs --tail 20 $CONTAINER
           exit 1
         '''
       }
