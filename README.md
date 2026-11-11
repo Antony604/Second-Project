@@ -28,8 +28,8 @@ GitHub push -> webhook -> Jenkins (on EC2) -> docker build -> Docker Hub -> depl
 
 Run it locally:
 
-    docker build -t kanban:test .
-    docker run -d --name kanban-test -p 80:8080 kanban:test
+    docker build -t second:project .
+    docker run -d --name second-project -p 80:8080 second:project
 
 ## Registry and versioning
 
@@ -81,4 +81,12 @@ http://13.203.204.164
 
 ## Screenshots
 
-See the `screenshots/` folder.
+See the `screenshots/` folder (screenshots/README.md)
+
+## Docker Hub
+
+https://hub.docker.com/r/antonypeter02/second-project
+
+## GitHub repo
+
+https://github.com/Antony604/Second-Project
