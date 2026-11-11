@@ -81,7 +81,7 @@ http://13.203.204.164
 
 ## Screenshots
 
-See the `screenshots/` folder.
+See the `screenshots/` folder (screenshots/README.md)
 
 ## Docker Hub
 
